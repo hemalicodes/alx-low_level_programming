@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- *Main - Entry point
+ * main - Entry point
  *
  *Return: Always 0 (Success)
  */
@@ -17,5 +17,5 @@ printf("Size of an int: %zu byte(s)\n", sizeof(intType));
 printf("Size of a long int: %zu byte(s)\n", sizeof(longType));
 printf("Size of a long long int: %zu byte(s)\n", sizeof(longlongType));
 printf("Size of a float: %zu byte(s)\n", sizeof(floatType));
-return 0;
+return (0);
 }
