@@ -8,7 +8,7 @@ int main(void)
 {
   char charType;
   int intType;
-  long longType;
+  long long int  longType;
   float floatType;
 
   /*sizeof evaluates size of variable*/
