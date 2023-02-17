@@ -8,14 +8,15 @@ int main(void)
 {
   char charType;
   int intType;
-  long long int  longType;
+  long int longType;
+  long long int  longlongType;
   float floatType;
 
   /*sizeof evaluates size of variable*/
   printf("Size of a char: %zu byte(s)", sizeof(charType));
   printf("Size of an int: %zu byte(s)", sizeof(intType));
   printf("Size of a long int: %zu byte(s)", sizeof(longType));
-  printf("Size of a long long int: %zu byte(s)", sizeof(longType));
+  printf("Size of a long long int: %zu byte(s)", sizeof(longlongType));
   printf("Size of a float: %zu byte(s)", sizeof(floatType));
 
   return 0;
