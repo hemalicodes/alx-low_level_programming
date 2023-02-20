@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Prints the last digit of a randomly generated number
+ * main - Entry point
  *
  * Description: takes a number and returns if it meets a conditional
  *
- * Returns: 0(Always)
+ * Return: 0(Always)
  */
 
 /* betty style doc for function main goes there */
