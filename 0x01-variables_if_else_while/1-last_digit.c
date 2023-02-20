@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Prints the last digit of a randomly generated number
  *
  * Description: takes a number and returns if it meets a conditional
  *
