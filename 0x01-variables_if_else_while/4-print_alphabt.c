@@ -16,11 +16,11 @@ int main(void)
     while(i != 'q' || i != 'e')
       {
 	putchar(i);
-	putchar('\n');
         i++;
       }
   }
 
+  putchar('\n');
   return (0);
 
 }
