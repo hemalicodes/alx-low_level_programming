@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  *
- * Description: 'the program assigns a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative.'
+ * Description: 'the program assigns a random number n in order to print whether the number stored in the variable n is positive or negative.'
  *
  *Return: Always 0 (Success)
  */
