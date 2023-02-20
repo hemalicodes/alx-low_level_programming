@@ -3,23 +3,25 @@
  * main - Entry point
  *
  * Descriptio: Prints alphabet in lowercase except q and e
- * 
+ *
  * Return: 0 Always.
  */
 
 int main(void)
 {
-  int i;
+int i;
+ 
+for(i = 'a'; i <= 'z'; i++)
+{
+if(i != 'e' && i != 'q')
 
-  for(i = 'a'; i <= 'z'; i++)
-  {
-    if(i != 'e' && i != 'q')
-      
-	putchar(i);      
-  }
+putchar(i);
 
-  putchar('\n');
-  return (0);
+}
+
+putchar('\n');
+
+return (0);
 
 }
 
