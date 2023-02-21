@@ -8,8 +8,12 @@
  */
 int main(void)
 {
-char puts = "_putchar";
-putchar(puts);
-putchar("\n");
+char *sh = "_putchar";
+while (*sh)
+{
+_putchar(*sh);
+sh++;
+}
+_putchar('\n');
 return (0);
 }
