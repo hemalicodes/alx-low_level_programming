@@ -24,6 +24,5 @@ r = print_sign(-1);
 putchar(',');
 putchar(' ');
 putchar(r + '0');
-putchar('\n');
 return (0);
 }
