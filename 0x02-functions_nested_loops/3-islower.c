@@ -4,7 +4,6 @@
  *
  * Returns: 1 0r 0 
  */
-
 int _islower(int c)
 {
 if (c >= 'a' && c <= 'z')
