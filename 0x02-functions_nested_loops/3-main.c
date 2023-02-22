@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * test_islower - Test the _islower function
  *
