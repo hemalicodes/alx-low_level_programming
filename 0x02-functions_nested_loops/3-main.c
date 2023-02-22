@@ -7,11 +7,10 @@
  */
 void test_islower(int n)
 {
-	int r;
-
-	r = _islower(n);
-	_putchar(r + '0');
-	_putchar('\n');
+int r;
+r = _islower(n);
+putchar(r + '0');
+putchar('\n');
 }
 
 /**
@@ -21,6 +20,6 @@ void test_islower(int n)
  */
 int main(void)
 {
-	test_islower('H');
-	return (0);
+test_islower('H');
+return (0);
 }
