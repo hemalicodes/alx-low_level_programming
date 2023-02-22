@@ -1,12 +1,3 @@
-#include<stdio.h>
-#include "main.h"
-/**
- * main - Entry point
- *
- * Description: prints the alphabet, in lowercase
- *
- * Return: 0 Always
- */
 void print_alphabet(void)
 {
 int i;
