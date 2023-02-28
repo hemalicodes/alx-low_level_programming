@@ -1,6 +1,13 @@
-#ifndef MAIN_H
-#define MAIN_H
-
-void reset_to_98(int *n);
-
-#endif
+#include "main.h"
+#include <stdio.h>
+/**
+ * reset_to_98 -  takes a pointer to an int as parameter and updates the value it points to to 98
+ *
+ * @n - input 
+ *
+ * Return: 0 Always
+ */
+void reset_to_98(int *n)
+{
+*n = 98;
+}
