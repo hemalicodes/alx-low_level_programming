@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
+#define PASSWORD_LENGTH 6
+
 int main(void)
 {
 char password[PASSWORD_LENGTH + 1];
