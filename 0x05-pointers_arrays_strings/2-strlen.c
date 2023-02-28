@@ -16,4 +16,4 @@ len++;
 s++;
 }
 return (len);
-} 
+}
