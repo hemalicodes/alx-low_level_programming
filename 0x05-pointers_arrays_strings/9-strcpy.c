@@ -2,7 +2,7 @@
 /**
  * _strcpy - opies the string pointed to by src
  *
- * @str: input
+ * @stc: input
  * @dest: input
  *
  * Return: dest
