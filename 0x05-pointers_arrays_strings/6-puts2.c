@@ -1,21 +1,22 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *puts2
+ * puts2 - prints all char of a string
  *
- *@str: input
+ * @str: input
  *
- *Return: Always 0
+ * Return: Always 0
  */
 void puts2(char *str)
 {
-int i;
-for (i = 0; i < strlen(str); i++)
+int i,j; 
+for (i = 0; str[i] != '\0' ; i++)
 {
-if (i % 2 == 0)
-{
-putchar(str[i]);
+;
 }
+for (j = 0; j < i; j = j + 2)
+{
+putchar(str[j]);
 }
 putchar('\n');
 } 
