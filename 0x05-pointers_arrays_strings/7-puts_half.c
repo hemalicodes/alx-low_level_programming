@@ -30,4 +30,4 @@ i++;
 putchar(j);
 }
 putchar('\n');
-} 
+}
