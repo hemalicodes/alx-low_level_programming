@@ -21,5 +21,4 @@ i = *j;
 *j = *k;
 *k = i; 
 }
-return s;
 }
