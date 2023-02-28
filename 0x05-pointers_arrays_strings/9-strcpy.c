@@ -3,8 +3,9 @@
  * _strcpy - opies the string pointed to by src
  *
  * @str: input
+ * @dest: input
  *
- * Return: Always 0
+ * Return: dest
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -27,4 +28,4 @@ dest[i] = '\0';
 i++;
 }
 return (dest);
-} 
+}
