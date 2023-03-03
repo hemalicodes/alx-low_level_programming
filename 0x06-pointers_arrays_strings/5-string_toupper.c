@@ -1,14 +1,20 @@
 #include "main.h"
 /**
  *string_toupper -  changes all lowercase letters of a string
- *@s: input
+ *@str: input
  *Return: Always 0
  */
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
-int j;
-for (j = 0; s[j] != '\0'; j++)
-if (s[j] > 96 && s[j] < 123)
-s[j] -= 32;
-return (s);
+int i;
+i = 0;
+while (str[i] != '\0')
+{
+if (str[i] >= 97 && str[i] <= 122)
+{
+str[i] = str[i] - 32;
+}
+i++;
+}
+return (str);
 } 
