@@ -7,15 +7,35 @@
  */
 void print_number(int n)
 {
-unsigned int i = n;
-if (n < 0)
+long m;
+int c;
+long num;
+num = n;
+if (num < 0)
 {
-putchar(45);
-i = -i;
+num *= -1;
+putchar('-');
 }
-if (i / 10)
+m  = 1;
+c = 1;
+while (c)
 {
-print_number(i / 10);
+if (num / (m * 10) > 0)
+m *= 10;
+else
+c = 0;
 }
-putchar(i % 10 + '0');
+while (num >= 0)
+{
+if (m == 1)
+{
+putchar(num % 10 + '0');
+num = -1;
+}
+else
+{
+putchar((num / m % 10) + '0');
+m /= 10;
+}
+}
 }
