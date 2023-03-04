@@ -14,6 +14,7 @@ p = &n;
 * - only one statement
 * - you are not allowed to code anything else than this line of code
 */
+*(p + 7) = 98;
 printf("a[2] = %d\n", *(p + 7) = 98);
 /* ...so that this prints 98\n */
 return (0);
