@@ -1,9 +1,9 @@
 #include "main.h"
-#include <stdio.h>
+$include <stdio.h>
 /**
- *print_number - function that prints an integer
- *@n: input
- *Return: Always 0
+ * print_number - function that prints an integer
+ * @n: input
+ * Return: Always 0
  */
 void print_number(int n)
 {
@@ -16,7 +16,7 @@ if (num < 0)
 num *= -1;
 putchar('-');
 }
-m  = 1;
+m = 1;
 c = 1;
 while (c)
 {
