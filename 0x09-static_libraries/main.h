@@ -1,6 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/*
+ * File: main.h
+ * Auth: Daniel Sobit
+ * Desc: Header file with all prototypes in the static lib
+ */
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
